@@ -6,7 +6,7 @@ from difflib import SequenceMatcher
 app = Flask(__name__)
 
 # Set your Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAbG7GmD1d8dtv95_P38xiTnF8r6FGG1h4"
+os.environ["GOOGLE_API_KEY"] = "api key here"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 model = genai.GenerativeModel("models/gemini-1.5-pro")
